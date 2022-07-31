@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.home{
+    display: flex;
+    /* background-image: url("../img/aman.jpg"); */
+    background-color: black;
+    height: 100vh;
+    color: wheat;
+    min-height: 500px;
+    font-family: 'Ubuntu' sans-serif;
+
+}
+.max-width1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.profile-image{
+    display: block;
+    margin-right: 100px;
+}
+.profile-image>img{
+    border-radius: 100%;
+}
+
+.home .max-width1{
+    margin: auto 0 auto 0;
+}
+.home-contents{
+    margin-left: 100px;
+}
+.home .home-contents .text-1{
+    font-size: 25px;
+}
+.home .home-contents .text-2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: -3px;
+    
+}
+.home .home-contents .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    
+}
+.home .home-contents .text-3 span{
+    color: crimson;
+    font-weight: 600;
+}
+.home-contents a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.home-contents a:hover{
+    background: black;
+    color: crimson;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.about{
+    font-family: 'Poppins',sans-serif;
+    padding: 100px 0;
+    
+}
+.about .title{
+    font-family: 'Ubuntu',sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+.about .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    transform:  translate(-50%);
+    background: #111;
+}
+.about .title::after{
+    content: "Who I Am";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+
+    transform:  translate(-50%);
+}
+.about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.about-content .column.right{
+    width: 55%;
+    object-fit: contain;
+    color: red;
+}
+.about-content .column.right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.about-content .column.right a:hover{
+    background: #fff;
+    color: crimson;
+    border: 1px solid #111;
+    border-radius: 5px;
+}
+@media (max-width:850px) {
+    .max-width1{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .home-contents{
+        text-align: center;
+        margin:150px 0px 0px 0px;
+    }
+    .profile-image{
+        text-align: center;
+        margin:10px auto;
+    }
+}
