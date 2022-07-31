@@ -99,6 +99,9 @@
 
     transform:  translate(-50%);
 }
+.text.about{
+    font-weight: bold;
+}
 .about .about-content{
     display: flex;
     align-items: center;
@@ -108,9 +111,13 @@
 .about-content .column.right{
     width: 55%;
     object-fit: contain;
-    color: red;
+    /* color: red; */
 }
-.about-content .column.right a{
+.about-content .column.right span{
+    color: crimson;
+    font-weight: bold;
+}
+#pdf{
     display: inline-block;
     background: crimson;
     color: #fff;

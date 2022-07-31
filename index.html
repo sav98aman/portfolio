@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>Aman Profile</title>
-
+    <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/navbar.css">
     <link rel="stylesheet" href="./style/section.css">
 
@@ -23,7 +23,7 @@
                 <li><a href="#about">About</a> </li>
                 <li><a href="#skill">Skill</a> </li>
                 <li><a href="#contact">Contacts</a> </li>
-                <li><a href="#">Info</a> </li>
+                <li><a href="#projects">project</a> </li>
             </ul>
             <div class="menu-btn">
                 <i class="fa fa-bars"></i>
@@ -45,9 +45,7 @@
             </div>
         </div>
     </section>
-
     <!-- about -->
-
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About me</h2>
@@ -56,14 +54,64 @@
                     <img style="height:400px; width: 400px; border-radius: 5px;object-fit: cover; " src="./img/aman.jpg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text about">I'm Aman kumar and i'm a<span>Developer</span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cum aliquam quo delectus perferendis corrupti accusantium. Magni atque dolorem animi mollitia aliquam tempora at possimus, pariatur aut unde, eos eligendi.</p>
-                    <a href="#">Download Cv</a>
+                    <div class="text about">
+                        <p>I'm Aman kumar and i'm a <span id="autotyping">Developer</span></p>
+                        <p>I completed my B.tech in Electrical & Electronics Engineering From <a href="https://ncechandi.ac.in/">N.C.E Chandi Nalanda in <span>2021</span></a> <span> <br> Now,  I'm currently Studies at <a href="https://www.masaischool.com/">Masai School</a></span> Fullstack Web-devlopments <br>this is offering 30 week course Program</p>
+                    </div>
+                    <a id="pdf"href="./img/AMAN's Resume (1).pdf" target="_blank">Download Cv</a>
                     
                 </div>
             </div>
         </div>
     </section>
+
+    <div style="margin-top: 300px;">
+        <h2  id="updating" style="color:crimson; text-align: center; margin-top: 20px;">updating wesite </h2>
+
+    </div>
+
+    <!-- <section class="projects about" id="projects"> -->
+         <!-- Slideshow container -->
+         <!-- <div>  <h2 class="title">Projects</h2></div>
+            <div class="slideshow-container fade"> -->
+
+                <!-- Full images with numbers and message Info -->
+                <!-- <div class="Containers">
+                <div class="MessageInfo">1 / 3</div> -->
+                <!-- <img src="./img/aman.jpg" style="width:100%">
+                 -->
+                 
+                 <!-- <svg height="400px" width="400px" >
+                    <rect x="1000" y="400" fill="black"></rect>
+                 </svg>
+                <div class="Info">First caption</div>
+                </div>
+            
+                <div class="Containers">
+                <div class="MessageInfo">2 / 3</div>
+                <img src="./img/aman.jpg" style="width:100%">
+                <div class="Info">Second Caption</div>
+                </div>
+            
+                <div class="Containers">
+                <div class="MessageInfo">3 / 3</div>
+                <img src="./img/aman.jpg" style="width:100%">
+                <div class="Info">Third Caption</div>
+                </div> -->
+            
+                <!-- Back and forward buttons -->
+                <!-- <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+            </div> -->
+  <br>
+  
+  <!-- The circles/dots -->
+  <!-- <div style="text-align:center">
+    <span class="dots" onclick="currentSlide(1)"></span>
+    <span class="dots" onclick="currentSlide(2)"></span>
+    <span class="dots" onclick="currentSlide(3)"></span>
+  </div> 
+ </section> -->
 
     
     <section class="about" id="contact">
@@ -100,10 +148,33 @@
 <script src="./javascripts/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
    <script>
-    let typed = new Typed(".autotyping", {
+    let typed = new Typed(".autotyping, #autotyping", {
       strings: ["Backend-Developer","Web Developer", "Software-Developer"],
       typeSpeed: 100,
       backSpeed: 50,
       loop: true
     })
   </script>
+  <script>
+    let typede = new Typed("#updating", {
+      strings: ["please give some time","updating soon...","please wait"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    })
+  </script>
+   <script>
+    let typed1 = new Typed("#autotyping", {
+      strings: ["Backend-Developer","Web Developer", "Software-Developer",'Front-end'],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    })
+  </script>
+
+<!-- <script>
+    window.oncontextmenu = function () {
+        console.log("Right Click Disabled");
+        return false;
+    }
+</script> -->
