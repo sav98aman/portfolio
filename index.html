@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Aman Profile</title>
+
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/section.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><span>Aman</span> <span>Kumar</span></a></div>
+            <ul class="menu">
+                <li> <a href="#">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#skill">Skill</a> </li>
+                <li><a href="#contact">Contacts</a> </li>
+                <li><a href="#">Info</a> </li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="home" id="home">
+        <div class="max-width1">
+            <div class="home-contents">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Aman kumar</div>
+                <div class="text-3">I'm <span class="autotyping">Backend Developer</span></div>
+                <a href="#">Hire me</a>
+            </div>
+            <div class="profile-image">
+                <img style="width: 200px ;" src="./img/aman.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img style="height:400px; width: 400px; border-radius: 5px;object-fit: cover; " src="./img/aman.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text about">I'm Aman kumar and i'm a<span>Developer</span></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cum aliquam quo delectus perferendis corrupti accusantium. Magni atque dolorem animi mollitia aliquam tempora at possimus, pariatur aut unde, eos eligendi.</p>
+                    <a href="#">Download Cv</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contacts me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <address>
+                        <h4>Address</h4>
+                        <p>tehta</p>
+                        <p>Jehanabad</p>
+                        <p>776186982</p>
+                        <p>savverma98@gmail.com</p>
+                    </address>
+                </div>
+                <div class="column right">
+                        <form id="contact-form" action="contact">
+                            <label for="Name">Enter Name</label><br>
+                            <input type="text" placeholder="enter Name"><br>
+                            <label for="email">enter email</label><br>
+                            <input type="text" placeholder="abc@gmail.com" ><br>
+                            <label for="mobile">Enter Monile number <br><input type="phone" placeholder="enter mobile number"></label><br>
+                            <label for="message">Enter your massege <br><input type=""></label>
+                            <input type="submit">
+                        </form>                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
+<script src="./javascripts/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+    let typed = new Typed(".autotyping", {
+      strings: ["Backend-Developer","Web Developer", "Software-Developer"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    })
+  </script>
