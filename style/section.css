@@ -4,7 +4,7 @@
     display: flex;
     /* background-image: url("../img/aman.jpg"); */
     background-color: black;
-    height: 100vh;
+    height: 150vh;
     color: wheat;
     min-height: 500px;
     font-family: 'Ubuntu' sans-serif;
@@ -14,21 +14,22 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 300px ;
     /* border: 1px solid red; */
 }
 .profile-image{
     display: block;
-    margin-right: 100px;
+    margin-right: 300px;
 }
 .profile-image>img{
     border-radius: 100%;
 }
 
-.home .max-width1{
+/* .home .max-width1{
     margin: auto 0 auto 0;
-}
+} */
 .home-contents{
-    margin-left: 100px;
+    margin-left: 300px;
 }
 .home .home-contents .text-1{
     font-size: 25px;
