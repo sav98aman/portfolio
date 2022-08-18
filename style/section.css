@@ -19,7 +19,7 @@
 }
 .profile-image{
     display: block;
-    margin-right: 300px;
+    margin-right: 150px;
 }
 .profile-image>img{
     border-radius: 100%;
@@ -29,7 +29,7 @@
     margin: auto 0 auto 0;
 } */
 .home-contents{
-    margin-left: 300px;
+    margin-left: 100px;
 }
 .home .home-contents .text-1{
     font-size: 25px;
