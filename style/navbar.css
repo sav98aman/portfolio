@@ -50,6 +50,7 @@
     margin-left: 25px;
 }
 .menu-btn{
+    border: 1px solid red;
     color: #fff;
     font-size: 25px;
     cursor: pointer;
