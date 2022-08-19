@@ -156,7 +156,7 @@
 #projects{
     font-family: 'Poppins',sans-serif;
     padding: 10px 0;
-    border: 1px solid rgb(11, 169, 32);
+    /* border: 1px solid rgb(11, 169, 32); */
     width: 100%;
     /* background-color: black; */
     margin: auto;
@@ -199,29 +199,33 @@
     width: 90%;
     margin:1px auto;
 }
-.project.box{
-    display: grid;
+.project-box{
+    /* display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
+    grid-template-rows: auto; */
     gap: 10px;
-    /* display: flex; */
-    width: 300px;
+    display: flex;
+    width: auto;
     height:auto;
-    border: 2px solid crimson;
-    
+    /* border: 2px solid crimson; */
+    justify-content: space-evenly;
     margin:10px 10px;
+    border-radius: 10px; 
+}
 
-    border-radius: 10px;
-    
+.pr-box{
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid crimson;
+    border-radius: 5px;
 }
-.pr{
-      width: 90%;
-    margin: 10px 10px 0;
-}
+
 .primg{
-    /* border: 1px solid rebeccapurple; */
-    width:270px;
-    height: fit-content;
+    border: 2px solid rgb(159, 230, 28);
+    width:405px;
+    height: 300px;
+    text-align: center;
     border-radius: 10px;
 }
 .techstack{
@@ -230,7 +234,7 @@
 }
 
 .deplbox{
-    cursor: pointer;
+    
     display: flex;
     justify-content: center;
     justify-content: space-around;
