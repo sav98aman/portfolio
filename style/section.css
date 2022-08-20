@@ -77,7 +77,7 @@
 #about{
     font-family: 'Poppins',sans-serif;
     padding: 50px 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     /* background-color: black; */
     margin: auto;
@@ -130,7 +130,7 @@
 .column.left>img{
     height: 300px;
     width: 340px;
-    border: 4px solid rgb(0, 224, 149);
+    border: 4px solid crimson;
     border-radius: 52%;
 }
 .about-content .column.right span{
@@ -240,6 +240,171 @@
     justify-content: space-around;
 
 }
+
+/* contacts */
+
+#contact{
+    font-family: 'Poppins',sans-serif;
+    padding: 50px 0;
+    /* border: 1px solid red; */
+    width: 100%;
+    /* background-color: black; */
+    margin: auto;
+}
+.contact .title{
+    font-family: 'Ubuntu',sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+.contact .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    transform:  translate(-50%);
+    background: #111;
+}
+.contact .title::after{
+    content: "Get in Touch";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform:  translate(-50%);
+}
+.text.contact{
+    font-weight: bold;
+}
+.contact-content{
+    /* border: 1px solid red; */
+    /* height: 90vh; */
+    margin: auto;
+}
+.left-contcats{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+}
+.left-contcats>div{
+    /* border: 1px solid red; */
+    width:fit-content;
+    margin: auto;
+}
+.right-contcats{
+    /* border:1px solid red; */
+    width: 90%;
+    margin: auto;
+}
+input{
+    width: 30;
+}
+.drop-massage,.submit{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.right-contcats>div{
+    border: 3px solid crimson;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 5px ;
+}
+
+.fa{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* border: 1px solid red; */
+    gap: 10px;
+}
+
+
+
+
+/* skill */
+
+#skill{
+    font-family: 'Poppins',sans-serif;
+    padding: 50px 0;
+    /* border: 1px solid red; */
+    width: 100%;
+    /* background-color: black; */
+    margin: auto;
+}
+.skill .title{
+    font-family: 'Ubuntu',sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+.skill .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    transform:  translate(-50%);
+    background: #111;
+}
+.skill .title::after{
+    content: "my skill";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform:  translate(-50%);
+}
+.text.skill{
+    font-weight: bold;
+}
+
+.skill-content{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+}
+.skill-content>div{
+    /* border:  1px solid red; */
+    width: 70%;
+    margin: auto
+    ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin: auto;
+
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.skill-content>div>img{
+    text-align: center;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+
 
 
 
